@@ -1,2 +1,6 @@
 # react template
-A react template with react-router, redux, typescript
+A react template with :
+- [ ] react-router
+- [x] typescript
+- [ ] redux
+- [ ] eslint 
