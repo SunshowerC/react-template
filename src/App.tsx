@@ -1,14 +1,10 @@
-import * as React from "react";
-import HeaderLayout from "./layouts/HeaderLayout";
+import * as React from 'react'
+import HeaderLayout from './layouts/HeaderLayout'
 
-class App extends React.Component                               {
+class App extends React.Component {
   public render() {
-    return (
-      <HeaderLayout>
-        hello
-      </HeaderLayout>
-    );
+    return <HeaderLayout>hello</HeaderLayout>
   }
 }
 
-export default App;
+export default App
