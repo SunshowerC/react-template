@@ -3,4 +3,6 @@ A react template with :
 - [ ] react-router
 - [x] typescript
 - [ ] redux
-- [ ] eslint 
+- [x] tslint 
+- [x] prettier
+- [ ] import on demand(code-splitting)
