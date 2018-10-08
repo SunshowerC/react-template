@@ -1,2 +1,2 @@
-export const list: string;
-export const hello: string;
+export const list: string
+export const hello: string
