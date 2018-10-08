@@ -11,7 +11,9 @@
     "prettier": true,
     "object-literal-sort-keys": false,
     "jsx-no-lambda": false,
-    "ordered-imports": false
+    "ordered-imports": false,
+    "no-var-requires":false,
+    "no-debugger":false
   },
   "rulesDirectory": ["tslint-plugin-prettier"]
 

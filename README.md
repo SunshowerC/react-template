@@ -6,3 +6,6 @@ A react template with :
 - [x] tslint 
 - [x] prettier
 - [ ] import on demand(code-splitting)
+- [ ] CSS Pre-processor
+- [ ] CSS Module
+- [ ] Animination

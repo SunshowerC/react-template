@@ -21,7 +21,7 @@ const routes: IRouteConfig[] = [
   },
   {
     name: 'home',
-    path: '/home',
+    path: '/',
     component: HomePage,
     layout: HeaderLayout
   }
