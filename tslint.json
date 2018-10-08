@@ -13,7 +13,8 @@
     "jsx-no-lambda": false,
     "ordered-imports": false,
     "no-var-requires":false,
-    "no-debugger":false
+    "no-debugger":false,
+    "no-console": false
   },
   "rulesDirectory": ["tslint-plugin-prettier"]
 
