@@ -5,8 +5,8 @@ A react template with :
 - [ ] redux
 - [x] tslint 
 - [x] prettier
-- [ ] import on demand(code-splitting)
-- [x] CSS Pre-processor （node-sass, sass-loader）
+- [x] load on demand(code-splitting)[react-loadable]
+- [x] CSS Pre-processor [node-sass, sass-loader]
 - [x] CSS Module 
 - [ ] Animination
     
