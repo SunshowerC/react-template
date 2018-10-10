@@ -15,7 +15,8 @@
     "build": "react-app-rewired build --scripts-version react-scripts-ts",
     "test": "react-scripts-ts test --env=jsdom",
     "eject": "react-scripts-ts eject",
-    "lint": "tslint --exclude **/*.d.ts 'src/**/*.ts' 'src/**/*.tsx'  --fix"
+    "lint": "tslint --exclude **/*.d.ts 'src/**/*.ts' 'src/**/*.tsx'  --fix",
+    "lint:css": "prettier --write 'src/**/*.{scss,css,less,sass}'"
   },
   "devDependencies": {
     "@types/jest": "23.3.2",
