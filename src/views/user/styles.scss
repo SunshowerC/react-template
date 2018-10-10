@@ -1,0 +1,28 @@
+
+:global {
+
+
+.fade {
+    display: block;
+    margin: 20px;
+    background-color: #ffff00;
+    transition: all 600ms;
+}
+
+.fade-enter {
+    opacity: 0;
+}
+
+.fade-enter-active, .fade-exit {
+    opacity: 1;
+}
+
+
+.fade-exit-active {
+    opacity: 0;
+}
+
+.fade-exit-done {
+    display: none;
+}
+}

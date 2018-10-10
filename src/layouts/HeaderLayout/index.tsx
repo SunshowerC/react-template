@@ -12,7 +12,7 @@ export default class HeaderLayout extends React.Component {
           <img src={logoSvg} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to React</h1>
         </header>
-        <p className="App-intro">{children}</p>
+        <section className="App-intro">{children}</section>
       </div>
     )
   }

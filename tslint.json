@@ -4,17 +4,22 @@
     "exclude": [
       "config/**/*.js",
       "node_modules/**/*.ts",
-      "coverage/lcov-report/*.js"
+      "coverage/lcov-report/*.js",
+      "config-overrides.js"
     ]
   },
   "rules": {
-    "prettier": true,
+    "prettier": {
+      "severity": "warning"
+    },
     "object-literal-sort-keys": false,
     "jsx-no-lambda": false,
     "ordered-imports": false,
     "no-var-requires":false,
     "no-debugger":false,
-    "no-console": false
+    "no-console": false,
+    "member-access":false,
+    "jsx-boolean-value": false
   },
   "rulesDirectory": ["tslint-plugin-prettier"]
 

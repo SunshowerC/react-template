@@ -23,6 +23,7 @@ class App extends React.Component {
             />
           ))}
         </div>
+
         {/* <Route exact={true} path="/" component={Home} /> */}
       </Router>
     )

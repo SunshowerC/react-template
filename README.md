@@ -8,5 +8,5 @@ A react template with :
 - [x] load on demand(code-splitting)[react-loadable]
 - [x] CSS Pre-processor [node-sass, sass-loader]
 - [x] CSS Module 
-- [ ] Animination
+- [ ] Transition
     
