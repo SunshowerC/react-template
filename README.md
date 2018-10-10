@@ -10,3 +10,4 @@ A react template with :
 - [x] CSS Module 
 - [x] Transition
 - [ ] pre-commit
+- [ ] alias
