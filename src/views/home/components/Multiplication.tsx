@@ -18,12 +18,14 @@ const operate: SFC<IDispatchProps & IProps> = props => {
   )
 }
 
+// 复杂情况使用函数
 // const mapDispatchToProps: MapDispatchToProps<
 //   IDispatchProps,
 //   IProps
 // > = dispatch => ({
 //   multiple: () => dispatch(multiple())
 // })
+// 简单情况使用对象
 const mapDispatchToProps: MapDispatchToProps<IDispatchProps, IProps> = {
   multiple
 }

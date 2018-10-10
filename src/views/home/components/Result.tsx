@@ -19,9 +19,8 @@ const mapStateToProps = (state, ownProps) => {
   // const { visibilityFilter } = state;
   // const todos = getTodosByVisibilityFilter(state, visibilityFilter);
   // return { todos };
-
   return {
-    count: state
+    count: state.simpleCount
   }
 }
 export default connect(mapStateToProps)(result)

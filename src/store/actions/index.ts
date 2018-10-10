@@ -1,7 +1,8 @@
 type IAction = () => { type: string }
+import { PLUS, MULTIPLE } from './types'
 
 export const add: IAction = () => ({
-  type: '+'
+  type: PLUS
   //   payload: {
   //     id: ++nextTodoId,
   //     content
@@ -9,5 +10,5 @@ export const add: IAction = () => ({
 })
 
 export const multiple: IAction = () => ({
-  type: 'x'
+  type: MULTIPLE
 })
