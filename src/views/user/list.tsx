@@ -1,8 +1,8 @@
-import React from 'react'
+import React from "react"
 
-import TestTransition from './transition'
-import CssTran from './css-transition'
-import TransGroup from './trans-group'
+import TestTransition from "./transition"
+import CssTran from "./css-transition"
+import TransGroup from "./trans-group"
 
 class UserList extends React.PureComponent<any, any> {
   public state = {

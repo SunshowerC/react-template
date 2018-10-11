@@ -1,8 +1,8 @@
-import React from 'react'
-import { connect, MapDispatchToProps, MapStateToProps } from 'react-redux'
-import { IAction, addList } from 'src/store/actions'
-import { State as SimpleCountState } from 'src/store/reducers/simple-count'
-import { IState } from 'src/store/reducers'
+import React from "react"
+import { connect, MapDispatchToProps, MapStateToProps } from "react-redux"
+import { IAction, addList } from "src/store/actions"
+import { State as SimpleCountState } from "src/store/reducers/simple-count"
+import { IState } from "src/store/reducers"
 
 interface IMapDispatchToProps {
   addList: IAction

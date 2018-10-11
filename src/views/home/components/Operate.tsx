@@ -1,7 +1,7 @@
-import React from 'react'
-import { connect } from 'react-redux'
+import React from "react"
+import { connect } from "react-redux"
 
-import { add } from '../../../store/actions'
+import { add } from "../../../store/actions"
 const operate = props => {
   return (
     <div>

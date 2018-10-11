@@ -1,4 +1,4 @@
-import { PLUS, MULTIPLE, ADD_LIST } from './types'
+import { PLUS, MULTIPLE, ADD_LIST } from "./types"
 
 export type IAction = (payload?: any) => { type: string; payload?: any }
 

@@ -19,7 +19,11 @@
     "no-debugger":false,
     "no-console": false,
     "member-access":false,
-    "jsx-boolean-value": false
+    "jsx-boolean-value": false,
+    "quotemark": {
+      "severity": "warning",
+      "options": [ "double", "jsx-double"]
+    }
   },
   "rulesDirectory": ["tslint-plugin-prettier"]
 

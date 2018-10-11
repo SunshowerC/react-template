@@ -1,4 +1,4 @@
-import { ADD_LIST } from '../actions/types'
+import { ADD_LIST } from "../actions/types"
 
 export type State = any[]
 export default (state: State = [], action) => {

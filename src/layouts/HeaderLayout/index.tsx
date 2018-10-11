@@ -1,7 +1,7 @@
-import React from 'react'
-import './index.scss'
+import React from "react"
+import "./index.scss"
 
-import logoSvg from './logo.svg'
+import logoSvg from "./logo.svg"
 
 export default class HeaderLayout extends React.Component {
   public render() {

@@ -1,6 +1,6 @@
-import React, { SFC } from 'react'
-import { connect, MapStateToProps } from 'react-redux'
-import { IState } from 'src/store/reducers'
+import React, { SFC } from "react"
+import { connect, MapStateToProps } from "react-redux"
+import { IState } from "src/store/reducers"
 
 interface IMapState {
   count: number

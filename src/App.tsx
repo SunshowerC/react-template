@@ -1,10 +1,10 @@
-import * as React from 'react'
-import { HashRouter as Router, Route } from 'react-router-dom'
+import * as React from "react"
+import { HashRouter as Router, Route } from "react-router-dom"
 // import HeaderLayout from './layouts/HeaderLayout'
 // import BlankLayout from './layouts/BlankLayout'
-import routes from './router'
-import { Provider } from 'react-redux'
-import store from './store'
+import routes from "./router"
+import { Provider } from "react-redux"
+import store from "./store"
 
 class App extends React.Component {
   public render() {

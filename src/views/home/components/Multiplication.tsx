@@ -1,7 +1,7 @@
-import React, { SFC } from 'react'
-import { connect, MapDispatchToProps } from 'react-redux'
+import React, { SFC } from "react"
+import { connect, MapDispatchToProps } from "react-redux"
 
-import { multiple } from '../../../store/actions'
+import { multiple } from "../../../store/actions"
 interface IDispatchProps {
   multiple: typeof multiple
 }

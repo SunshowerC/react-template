@@ -1,4 +1,4 @@
-import { PLUS, MULTIPLE } from '../actions/types'
+import { PLUS, MULTIPLE } from "../actions/types"
 
 export type State = number
 

@@ -1,6 +1,6 @@
-import React from 'react'
-import CSSTransition from 'react-transition-group/CSSTransition'
-import './styles.scss'
+import React from "react"
+import CSSTransition from "react-transition-group/CSSTransition"
+import "./styles.scss"
 
 export default class CssTran extends React.PureComponent {
   public state = {

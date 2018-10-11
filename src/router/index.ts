@@ -1,10 +1,10 @@
-import BlankLayout from '../layouts/BlankLayout'
-import HeaderLayout from '../layouts/HeaderLayout'
+import BlankLayout from "../layouts/BlankLayout"
+import HeaderLayout from "../layouts/HeaderLayout"
 // import HomePage from '../views/home/list'
 // import UserList from '../views/user/list'
-import { ReactType } from 'react'
-import Loadable from 'react-loadable'
-import Loading from '../components/loading'
+import { ReactType } from "react"
+import Loadable from "react-loadable"
+import Loading from "../components/loading"
 
 // const dynamicImport = (path, loading = Loading) =>
 //   Loadable({
@@ -22,21 +22,21 @@ interface IRouteConfig {
 
 const routes: IRouteConfig[] = [
   {
-    name: 'user',
-    path: '/user',
+    name: "user",
+    path: "/user",
     component: Loadable({
       loader: () =>
-        import(/*  webpackChunkName: "user" */ '../views/user/list'),
+        import(/*  webpackChunkName: "user" */ "../views/user/list"),
       loading: Loading
     }),
     layout: BlankLayout
   },
   {
-    name: 'home',
-    path: '/',
+    name: "home",
+    path: "/",
     component: Loadable({
       loader: () =>
-        import(/*  webpackChunkName: "home" */ '../views/home/list'),
+        import(/*  webpackChunkName: "home" */ "../views/home/list"),
       loading: Loading
     }),
     layout: HeaderLayout

@@ -1,9 +1,9 @@
-import React from 'react'
-import { TransitionGroup, CSSTransition } from 'react-transition-group'
+import React from "react"
+import { TransitionGroup, CSSTransition } from "react-transition-group"
 
 export default class TransGroup extends React.PureComponent {
   state = {
-    list: ['a', 'b', 'c', 'd']
+    list: ["a", "b", "c", "d"]
   }
 
   render() {
