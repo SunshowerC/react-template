@@ -13,6 +13,7 @@ const setCSSLoader = (config, env)=>{
     
     cssRule.test = /\.(css|scss)$/
     cssLoader.options.modules = true
+    cssLoader.options.localIdentName = "[name]_[local]_[hash:base64:5]"
 }
 
 module.exports = (config, env) => {

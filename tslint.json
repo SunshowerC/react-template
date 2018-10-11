@@ -23,7 +23,8 @@
     "quotemark": {
       "severity": "warning",
       "options": [ "double", "jsx-double"]
-    }
+    },
+    "no-string-literal": false
   },
   "rulesDirectory": ["tslint-plugin-prettier"]
 

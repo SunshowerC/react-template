@@ -1,10 +1,11 @@
+import React from "react"
 import BlankLayout from "../layouts/BlankLayout"
-import HeaderLayout from "../layouts/HeaderLayout"
-// import HomePage from '../views/home/list'
-// import UserList from '../views/user/list'
+// import HeaderLayout from "../layouts/HeaderLayout"
+
 import { ReactType } from "react"
 import Loadable from "react-loadable"
 import Loading from "../components/loading"
+import SideLayout from "src/layouts/SideLayout"
 
 // const dynamicImport = (path, loading = Loading) =>
 //   Loadable({
@@ -16,8 +17,9 @@ interface IRouteConfig {
   name: string
   path: string
   // layout:  Component | JSX.Element | ((props: any) => JSX.Element)
-  layout: typeof BlankLayout | typeof HeaderLayout
+  layout: ReactType
   component: ReactType
+  children?: IRouteConfig
 }
 
 const routes: IRouteConfig[] = [
@@ -39,7 +41,13 @@ const routes: IRouteConfig[] = [
         import(/*  webpackChunkName: "home" */ "../views/home/list"),
       loading: Loading
     }),
-    layout: HeaderLayout
+    layout: SideLayout
+  },
+  {
+    name: "test",
+    path: "/test",
+    component: () => <p style={{ background: "red" }}> test </p>,
+    layout: SideLayout
   }
 ]
 
