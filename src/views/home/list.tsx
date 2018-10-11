@@ -4,14 +4,16 @@ import * as s from './style.module.css'
 import Add from './components/Operate'
 import Multiple from './components/Multiplication'
 import Result from './components/Result'
+import AddList from './components/AddList'
 
 const HomePage = () => (
-  <p className={s.hello}>
+  <div className={s.hello}>
     Home Page <br />
+    <AddList />
     <Add name="sss" />
     <Multiple name="*" />
     <Result />
-  </p>
+  </div>
 )
 
 export default HomePage
