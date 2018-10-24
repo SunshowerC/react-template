@@ -21,3 +21,6 @@ A react template with :
 - [x] pre-commit
     - husky
     - lint-staged
+
+- [ ] BundleAnalyzerPlugin
+- ExtractText

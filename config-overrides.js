@@ -1,3 +1,6 @@
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin
+
+
 const setCSSLoader = (config, env)=>{
     const loaders = config.module.rules[1].oneOf
     const cssRule = loaders.find(item => item.test.toString() === '/\\.css$/')
@@ -16,8 +19,15 @@ const setCSSLoader = (config, env)=>{
     cssLoader.options.localIdentName = "[name]_[local]_[hash:base64:5]"
 }
 
+const setBundleAnalyzerPlugin = (config, env)=>{
+    if(env === 'production') {
+        config.plugins.push(new BundleAnalyzerPlugin())
+    }
+}
+
 module.exports = (config, env) => {
     setCSSLoader(config, env)
+    setBundleAnalyzerPlugin(config, env)
 
     return config
 }

@@ -38,7 +38,7 @@ const routes: IRouteConfig[] = [
     path: "/",
     component: Loadable({
       loader: () =>
-        import(/*  webpackChunkName: "home" */ "../views/home/list"),
+        import(/*  webpackChunkName: "home " */ "../views/home/list"),
       loading: Loading
     }),
     layout: SideLayout
