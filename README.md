@@ -22,5 +22,6 @@ A react template with :
     - husky
     - lint-staged
 
-- [ ] BundleAnalyzerPlugin
-- ExtractText
+- [x] BundleAnalyzerPlugin
+- [ ] ExtractText
+- [ ] babel polyfill
