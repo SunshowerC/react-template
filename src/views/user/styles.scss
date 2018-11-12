@@ -6,8 +6,13 @@
     transition: all 600ms;
   }
 
-  .fade-enter {
+  .fade-enter,
+  .fade-appear {
     opacity: 0;
+  }
+
+  .fade-appear.fade-appear-active {
+    opacity: 1;
   }
 
   .fade-enter-active,
